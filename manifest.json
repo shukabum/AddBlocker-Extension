@@ -1,0 +1,15 @@
+{
+  "name": "SS Adblocker",
+  "version": "2.0",
+  "description": "Personal Ad blocker",
+  "permissions": ["webRequest", "webRequestBlocking", "https://*/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "16": "icons/block.png",
+    "128": "icons/block2.png"
+  },
+  "manifest_version": 2
+}
